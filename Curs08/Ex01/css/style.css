@@ -1,0 +1,28 @@
+ol a {
+color: green;
+text-decoration: line-through solid blue;
+}
+
+ul li {
+  text-decoration: underline;
+  color: purple;
+}
+
+i {
+  color: blue;
+  font-weight: bold;
+  text-decoration: line-through;
+}
+
+h1 {
+  color: red;
+  text-decoration: underline;
+}
+
+p {
+
+  color: grey;
+}
+h2 {
+  font-weight:normal;
+}
