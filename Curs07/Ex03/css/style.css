@@ -31,3 +31,9 @@ border-color: green;
   color: white;
   border-color: grey;
 }
+
+.box-3
+{
+  border-color: blue;
+  color: red;
+}

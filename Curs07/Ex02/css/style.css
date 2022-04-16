@@ -6,6 +6,16 @@ i {
 text-decoration: none;
 }
 
-a[href*='.com'] {
+a[href*=".com"] {
 color: black;
+}
+
+a {
+  color: green;
+}
+
+a[href^="http://"]{color: red}
+
+li {
+  text-decoration: underline;
 }
