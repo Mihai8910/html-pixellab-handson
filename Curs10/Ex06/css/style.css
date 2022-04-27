@@ -1,0 +1,12 @@
+p i {
+  position: relative;
+}
+
+
+p:hover i {
+  position: relative;
+  top: -2px;
+  right: -2px;
+
+
+}

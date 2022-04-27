@@ -1,6 +1,6 @@
 /* insert code */
 
-.pane-short .container .short-para{
+.pane-short .container + .short-para{
   text-decoration: underline dashed magenta;
   width: 75%;
   margin: 11px auto;
