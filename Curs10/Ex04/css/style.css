@@ -1,15 +1,15 @@
 h2 + h3 {
   text-decoration: underline dotted red;
-margin-top: 8px;
+  margin-top: 8px;
 }
 
 ol ~ h3 {
-border: 1px solid blue;
-padding: 5px;
+  border: 1px solid blue;
+  padding: 5px;
 }
 
 ul > li > ul > li {
-text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* insert code */
@@ -19,8 +19,53 @@ text-decoration: underline;
   border: 1px solid green;
 }
 
-.nested ul >li > ul > li > a {
+.nested ul > li > ul > li > a {
   padding: 5px;
   display: inline-block;
 }
 
+ol ~ h2 {
+  text-decoration: underline;
+  color: green;
+}
+
+h1 + h2 {
+  color: green;
+}
+
+h3 + p {
+  margin-top: 0px;
+}
+
+ol + h2 {
+  text-decoration: underline;
+}
+
+p b {
+  color: purple;
+}
+
+ul i {
+  text-decoration: underline;
+}
+
+.u-line i {
+  text-decoration: underline;
+}
+
+p i {
+  color: blue;
+}
+
+.last-list ~ ul a {
+  color: yellow;
+}
+
+ul ~ p {
+  border: dotted black;
+  padding: 20px;
+}
+
+.random ~ p {
+  padding: 12px;
+}
