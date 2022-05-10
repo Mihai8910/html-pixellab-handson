@@ -3,6 +3,18 @@ input[type='checkbox']:checked + label {
 }
 
 input[type='radio']:checked + label {
-background-color: lightgreen;
+  background-color: lightgreen;
 }
 
+input[type='radio'] + label {
+  background-color: lightpink;
+}
+
+input[type='checkbox'] + label {
+  color: lightpink;
+}
+
+select option:checked {
+  color: red;
+  font: bold;
+}

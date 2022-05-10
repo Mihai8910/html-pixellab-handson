@@ -2,7 +2,6 @@
   display: block;
 }
 
-
 .my-first-list a::before {
   display: inline-block;
   width: 5px;
@@ -11,12 +10,11 @@
   content: '';
   transform: rotate(45deg);
   position: absolute;
-display: inline-block;
-margin-right: 3px;
-top: -2px;
-position: relative;
+  display: inline-block;
+  margin-right: 3px;
+  top: -2px;
+  position: relative;
 }
-
 
 .my-first-list a ::after {
   content: '';
@@ -26,5 +24,8 @@ position: relative;
   border-radius: 50%;
   background-color: red;
   margin-left: 3px;
+}
 
+input[type='checkbox'] + label {
+  color: lightpink;
 }
